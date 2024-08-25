@@ -4,6 +4,10 @@ function Game() {
     const canvas = document.getElementById("canvas");
     const ctx = canvas.getContext("2d");
 
+    // Inventory Settings
+
+    const InventoryDIV = document.getElementById("Inventory");
+
     const LevelMiddle = {
         "grid": [
             [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
